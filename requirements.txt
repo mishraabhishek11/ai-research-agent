@@ -1,0 +1,11 @@
+# Web API
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30  # ASGI server to run main:app (not imported in code)
+pydantic>=2.7,<3.0
+
+# LLM client (requires a running local Ollama server)
+ollama>=0.4
+
+# Web fetching & scraping
+requests>=2.32,<3.0
+beautifulsoup4>=4.12,<5.0
